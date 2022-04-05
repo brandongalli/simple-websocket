@@ -15,6 +15,9 @@ Run `docker-compose up -d` on your terminal.
 Run `docker-compose exec backend python manage.py migrate --no-input` on your terminal. (Migrate DB)
 
 ## TODO
+
+Need to implement unit & integration testing
+
 ### Backend
 - Need to run scheduled task to send 'hi' every second. (Celery Redis)
 - Need to implement ENV(Secret key, etc)
